@@ -1,10 +1,10 @@
+# Visit website on
+
+https://react-ecommerce-shoppers.netlify.app/
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-#visit website on
-
-react-ecommerce-shoppers.netlify.app
 
 ## Available Scripts
 
