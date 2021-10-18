@@ -1,7 +1,6 @@
 import { ArrowLeftOutlined, ArrowRightOutlined } from "@material-ui/icons"
 import { useState } from "react";
 import styled from "styled-components"
-import Img1 from '../images/img1.png'; 
 import { sliderItems } from "../data";
 import { mobile } from "../Responsive";
 import { tablet } from "../Responsive";
