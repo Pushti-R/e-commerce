@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import { mobile } from "../Responsive";
-import { BrowserRouter as Router, Route, Link, Switch, Redirect } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import { tablet } from "../Responsive";
 
 const Container = styled.div`
@@ -65,16 +65,18 @@ const Login = () => {
   return (
     <Container>
       <Wrapper>
-      <Link to={`/home`}>
         <Title>SIGN IN</Title>
         <Form>
-          <Input placeholder="username" />
-          <Input placeholder="password" />
-          <Button>LOGIN</Button>
+          <Input placeholder="username"  />
+          <Input placeholder="password"  />
+          <Button>
+          <Link to={`/home`}>
+            LOGIN
+          </Link>
+            </Button>
           <Links>DON'T REMEMBER THE PASSWORD?</Links>
           <Links>CREATE A NEW ACCOUNT</Links>
         </Form>
-        </Link>
       </Wrapper>  
     </Container>
   );
